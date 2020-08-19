@@ -4,11 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.github.sarxos</groupId>
+    <groupId>com.extendaretail</groupId>
     <artifactId>webcam-capture-parent</artifactId>
     <version>0.3.13-SNAPSHOT</version>
   </parent>
 
+  <groupId>com.extendaretail</groupId>
   <artifactId>webcam-capture-drivers</artifactId>
   <packaging>pom</packaging>
 
@@ -19,16 +20,11 @@
     <module>driver-ffmpeg-cli</module>
     <module>driver-fswebcam</module>
     <module>driver-gst1</module>
-    <module>driver-gstreamer</module>
     <module>driver-ipcam</module>
     <module>driver-jmf</module>
-    <module>driver-lti-civil</module>
     <module>driver-mjpeg</module>
-    <module>driver-openimaj</module>
     <module>driver-opencv</module>
     <module>driver-screencapture</module>
-    <module>driver-v4l4j</module>
-    <module>driver-vlcj</module>
     <module>driver-raspberrypi</module>
   </modules>
 
